@@ -1,4 +1,26 @@
-.header {
-    color: red;
-    background-color: blue;
+.header-flex-container {
+    color: #F9FAF8;
+    background-color: #1F2937;
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-between;
 }
+
+.header-link-container {
+    display:flex;
+    gap: 10px;
+    margin-right: 200px;   
+    align-items: center;
+}
+
+h3 {
+    display:flex;
+    display: inline-block;
+    margin-left: 200px;
+}
+
+.top-flex-container {
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
+
